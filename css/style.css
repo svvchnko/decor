@@ -1,0 +1,272 @@
+@font-face {
+    font-family: 'Roboto Lt';
+    src: url('../fonts/Roboto-Medium.eot');
+    src: url('../fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Medium.woff2') format('woff2'),
+        url('../fonts/Roboto-Medium.woff') format('woff'),
+        url('../fonts/Roboto-Medium.ttf') format('truetype'),
+        url('../fonts/Roboto-Medium.svg#Roboto-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: rosybrown;
+    width: 100%;
+    padding: 27px 0 0;
+}
+.container {
+    max-width: 1188px;
+    margin: auto;
+}
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    padding-top: 39px;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    padding-top: 39px;
+}
+header ul li a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.menu-main {
+    margin-right: 10px;
+    margin-left: 163px;
+}
+.menu-catalogue {
+    margin: 0 10px;
+}
+.menu-portfolio {
+    margin: 0 10px;
+}
+.menu-blog {
+    margin: 0 10px;
+}
+.menu-contacts {
+    margin-left: 10px;
+    margin-right: 137px;
+}
+.menu-number {
+    margin-right: 10px;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.menu-callback {
+    margin-left: 10px;
+}
+.main-banner {
+    background-image: url('../images/Rectangle.png');
+    background-size: cover;    
+    padding: 88px 0 34px;
+} 
+.main-banner h1 {
+    margin-bottom: 30px;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 130%;
+    color: #FFFFFF;
+
+}
+.main-banner article {
+    box-sizing: border-box;
+    margin-bottom: 98px;
+    max-width: 512px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding: 36px 33px;
+    display: flex;
+
+}
+.main-banner article img {
+    margin-right: 33px;
+}
+.main-banner article p {
+    font-family: 'Roboto Lt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000
+}
+.main-banner button {
+    text-decoration: none;
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+    box-shadow: 0px 0px 166px rgba(0, 0, 0, 0.2), 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 20px 50px;
+    border: none;
+}
+.main-banner button span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.banner-two {
+    padding-bottom: 160px;    
+}
+.banner-two .image-top {
+    display: block;
+    width: 100%;
+    margin-bottom: 160px;
+}
+.about-us-image {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.about-us-general {
+    max-width: 385px;
+    margin-right: 120px;   
+}
+.about-us-info {
+    margin-bottom: 30px;
+}
+
+.banner-two h3 {
+    padding-top: 21px;
+    margin-bottom: 60px;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.banner-two .about-us-general p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+}
+.banner-two .about-us-general p span {
+    font-weight: bold
+}
+
+.banner-eight {
+    padding-bottom: 200px;
+    padding-top: 20px
+}
+.banner-eight .image-top {
+    display: block;
+    width: 100%;
+    margin-bottom: 200px;
+}
+.banner-eight form {
+    max-width: 392px;
+    margin: auto;
+}
+.banner-eight h3 {
+    margin-bottom: 30px;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000000;
+}
+.banner-eight form .form-name {
+    margin-bottom: 40px;
+    height: 24px;
+    display: inline-block;
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px #000000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 5px;
+}
+.banner-eight form .form-number {
+    margin-bottom: 40px;
+    height: 24px;
+    display: inline-block;
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px #000000;
+    display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 5px;
+}
+.banner-eight form textarea {
+    margin-bottom: 60px;
+    height: 24px;
+    resize: none;
+    display: inline-block;
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px #000000;
+    display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 5px;
+}
+
+.banner-eight .container img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.banner-eight button {
+    text-decoration: none;
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+    box-shadow: 0px 0px 166px rgba(0, 0, 0, 0.2), 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 20px 50px;
+    border: none;
+}
+
+.banner-eight button span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
