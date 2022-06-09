@@ -16,9 +16,9 @@
     margin: 0;
 }
 header {
-    background-color: rosybrown;
     width: 100%;
-    padding: 27px 0 0;
+    position: absolute;
+    left: -50px;
 }
 .container {
     max-width: 1188px;
@@ -80,8 +80,12 @@ header ul li a {
 .main-banner {
     background-image: url('../images/Rectangle.png');
     background-size: cover;    
-    padding: 88px 0 34px;
+    padding: 170px 0 34px;
 } 
+
+.main-banner .container {
+    position: relative;
+}
 .main-banner h1 {
     margin-bottom: 30px;
     font-family: 'Gothic A1';
@@ -130,7 +134,8 @@ header ul li a {
     color: #FFFFFF;
 }
 .banner-two {
-    padding-bottom: 160px;    
+    padding-bottom: 160px;  
+    position: relative;  
 }
 .banner-two .image-top {
     display: block;
@@ -138,10 +143,17 @@ header ul li a {
     margin-bottom: 160px;
 }
 .about-us-image {
-    width: 100%;
-    display: block;
+    max-width: 770px;
     border-radius: 10px;
     overflow: hidden;
+    position: absolute;
+    top: 260px;
+    right: 0;
+}
+.banner-two .about-us-image img {
+    width: 100%;
+    display: block;
+    
 }
 
 .about-us-general {
