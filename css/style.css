@@ -186,6 +186,93 @@ header ul li a {
 .banner-two .about-us-general p span {
     font-weight: bold
 }
+.banner-three {
+    background-image: url("../images/Group379.png");
+    background-size: cover;
+    padding: 30px 0;
+}
+.banner-three .header-explanation {
+    max-width: 1110px;
+    margin: 30px auto 67px;    
+}
+.banner-three .header-explanation h4 {
+    margin-left: 100px;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+.banner-three .our-advantages {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1110px;
+    margin: auto;
+}
+.banner-three .our-advantages div {
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.banner-three .our-advantages article {
+    max-width: 195px;
+    text-align: center;
+
+}
+.banner-three .our-advantages h5 {
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
+    text-align: left;
+}
+
+.banner-three .our-advantages p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
+    text-align: left;
+}
+
+.our-advantages .advantage-one {
+    padding: 65px 30px 50px;
+}
+
+.our-advantages .advantage-one img {
+    margin-bottom: 68px;
+}
+
+.our-advantages .advantage-two {
+    padding: 57px 30px 75px;
+}
+
+.our-advantages .advantage-two img {
+    margin-bottom: 48px;
+}
+
+.our-advantages .advantage-three {
+    padding: 63px 30px 50px;
+}
+
+.our-advantages .advantage-three img {
+    margin-bottom: 40px;
+}
+.our-advantages .advantage-four {
+    padding: 71px 30px 50px;
+}
+.our-advantages .advantage-four img {
+    margin-bottom: 65px;
+}
+
+
+
 
 .banner-six {
     padding: 30px 0 150px;    
@@ -196,10 +283,14 @@ header ul li a {
     margin-bottom: 152px;
     
 }
-
-.banner-six .facture-catalogue h4 {
-    text-align: center;
+.header-facture-catalogue {
+    max-width: 1100px;
+    margin: auto;
     margin-bottom: 52px;
+}
+
+.header-facture-catalogue h4 {
+    margin-left: 100px;    
     font-family: 'Gothic A1';
     font-style: normal;
     font-weight: 400;
@@ -207,24 +298,20 @@ header ul li a {
     line-height: 130%;    
 }
   
-.banner-six .facture-catalogue-top {
+.banner-six .facture-catalogue {
     display: flex;
-    justify-content: space-between;   
-    max-width: 1100px;
+    justify-content: space-between;
     margin: auto;
+    flex-wrap: wrap;
+    max-width: 1110px;
+}
+.banner-six .facture-catalogue div {
     margin-bottom: 40px;
 }
+.banner-six .facture-catalogue img {
+    margin-bottom: 20px;
+}
 
-.banner-six .facture-catalogue-bottom {
-    display: flex;
-    justify-content: space-between;    
-    max-width: 1100px;
-    margin: auto;
-    margin-bottom: 70px;
-}
-.banner-six .facture-catalogue span {
-    display: block;
-}
 .banner-six button {
     text-decoration: none;
     background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
@@ -239,13 +326,18 @@ header ul li a {
     line-height: 150%;
     color: #FFFFFF; 
     display: block;   
-    margin: auto;
+    margin: 30px auto 0;
 }
 .banner-seven {
     background-image: url("../images/Group379.png");
     background-size: cover;
-    padding: 60px 0 95px;
+    padding: 60px 0 50px;
     
+}
+.banner-seven .header-videoreviews {
+    max-width: 1100px;
+    margin: auto;
+    margin-bottom: 87px;
 }
 .banner-seven h3 {
     font-family: 'Gothic A1';
@@ -254,8 +346,7 @@ header ul li a {
     font-size: 24px;
     line-height: 130%;
     color: #FFFFFF;
-    text-align: center;
-    margin-bottom: 87px;   
+    margin-left: 100px;
 }
 .banner-seven .furniture-icons {
     display: flex;
@@ -264,20 +355,15 @@ header ul li a {
     justify-content: space-between;
     
 }
-.banner-seven .furniture-icons div::before {
-    content: "";
-    display: block;
-    width: 85px;
-    background-image: url("../images/Vector.svg");
-    background-size: cover;
-    height: 100px;
+.banner-seven .furniture-icons a {
     position: absolute;
-    top: 75px;
-    left: 90px;
+    top: 85px;
+    left: 95px;
 }
 .banner-seven .furniture-icons div {
     max-width: 255px;     
     position: relative;
+    margin-bottom: 45px;
     
 }
 .banner-seven .furniture-icons img {
