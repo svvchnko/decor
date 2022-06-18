@@ -21,7 +21,7 @@ header {
     left: -50px;
 }
 .container {
-    max-width: 1188px;
+    max-width: 1110px;
     margin: auto;
 }
 .d-flex {
@@ -76,6 +76,8 @@ header ul li a {
 }
 .menu-callback {
     margin-left: 10px;
+    text-decoration-line: underline;
+    
 }
 .main-banner {
     background-image: url('../images/Rectangle.png');
@@ -134,7 +136,7 @@ header ul li a {
     color: #FFFFFF;
 }
 .banner-two {
-    padding-bottom: 160px;  
+    padding: 18px 0 160px;  
     position: relative;  
 }
 .banner-two .image-top {
@@ -147,7 +149,7 @@ header ul li a {
     border-radius: 10px;
     overflow: hidden;
     position: absolute;
-    top: 260px;
+    top: 290px;
     right: 0;
 }
 .banner-two .about-us-image img {
@@ -270,9 +272,59 @@ header ul li a {
 .our-advantages .advantage-four img {
     margin-bottom: 65px;
 }
+.banner-four {
+    padding: 27px 0 177px;
+}
+.banner-four .image-top {
+    display: block;
+    width: 100%;
+    margin-bottom: 182px;
+}
+.banner-four h4 {
+    margin-left: 100px;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #373737;
+}
+.banner-four .portfolio-header {
+    margin: 0 auto 50px;
+    max-width: 1110px;
+}
+.banner-four .portfolio-examples {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1110px;
+    margin: 0 auto 80px;
+}
+.portfolio-example {
+    max-width: 540px;
+}
+.portfolio-example img {
+    margin-bottom: 20px;
+}
 
-
-
+.portfolio-example h6 {
+    margin-bottom: 10px;
+}
+.banner-four button {
+    text-decoration: none;
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 20px 68px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    display: block;
+    margin: auto;
+}
 
 .banner-six {
     padding: 30px 0 150px;    
@@ -402,7 +454,7 @@ header ul li a {
 }
 .banner-eight form {
     max-width: 392px;
-    margin: auto;
+    margin-right: 105px;
 }
 .banner-eight h3 {
     margin-bottom: 30px;
@@ -485,4 +537,79 @@ header ul li a {
     font-size: 20px;
     line-height: 150%;
     color: #FFFFFF;
+}
+footer {
+    background-image: url("../images/Group379.png");
+    background-size: cover;
+    padding: 50px 0;
+}
+footer .contacts-container {
+    max-width: 1110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+footer .contacts-container h4 {
+    font-family: 'Gothic A1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 130%;
+        color: #FFFFFF;
+}
+footer .contacts-container p {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 150%;
+        color: #FFFFFF;
+}
+footer .contacts-container a {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 150%;
+        color: #FFFFFF;
+        display: block;
+        text-decoration: none;
+}
+
+footer .contacts-one {
+    height: 148px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .contacts-two {
+    height: 148px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+}
+footer .google-map {
+    width: 540px;
+    height: 146px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.overmap-text {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    color: #FFFFFF;
+    padding-top: 45px;
+    text-align: center;
+}
+.social-media {
+    display: inline-block;
 }
