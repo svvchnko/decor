@@ -2,6 +2,10 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 header {
     width: 100%;
@@ -100,7 +104,8 @@ header ul li a {
     margin-right: 33px;
 }
 .main-banner article p {
-    font-family: 'Roboto Lt';
+    font-family: 'Roboto',
+        sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
