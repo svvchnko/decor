@@ -32,7 +32,7 @@ header ul {
 }
 header ul li a {
     text-decoration: none;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -40,8 +40,7 @@ header ul li a {
     color: #FFFFFF;
 }
 .menu-main {
-    margin-right: 10px;
-    margin-left: 163px;
+    margin-right: 10px;    
 }
 .menu-catalogue {
     margin: 0 10px;
@@ -53,13 +52,12 @@ header ul li a {
     margin: 0 10px;
 }
 .menu-contacts {
-    margin-left: 10px;
-    margin-right: 137px;
+    margin-left: 10px;    
 }
 .menu-number {
     margin-right: 10px;
     text-decoration: none;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -87,7 +85,7 @@ header ul li a {
     font-weight: 600;
     font-size: 56px;
     line-height: 130%;
-    color: #FFFFFF;
+    color: #FFFFFF;    
 
 }
 .main-banner article {
@@ -119,7 +117,8 @@ header ul li a {
     border-radius: 10px;
     padding: 20px 50px;
     border: none;
-    font-family: 'Roboto';
+    font-family: 'Roboto',
+        sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -177,7 +176,8 @@ header ul li a {
     color: #000000;
 }
 .banner-two .about-us-general p span {
-    font-weight: bold
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
 }
 .banner-three {
     background-image: url("../images/Group379.png");
@@ -299,6 +299,21 @@ header ul li a {
 
 .portfolio-example h6 {
     margin-bottom: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
+}
+
+.portfolio-example p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
 }
 .banner-four button {
     text-decoration: none;
@@ -355,12 +370,15 @@ header ul li a {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    
+}
+.banner-five .service-question h4,p {
     font-family: 'Gothic A1';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 130%;
-    color: #000000;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 130%;
+        color: #000000;
 }
 .banner-five .service-options {
     background-color: #FFFFFF;
@@ -386,8 +404,7 @@ header ul li a {
     color: #000000;
     margin-right: 97px;
 }
-.banner-five input {
-}
+
 .banner-five .photo-buttons {
     max-width: 610px;
 }
@@ -397,6 +414,10 @@ header ul li a {
 .banner-five .photo-buttons img {
     display: block;
     width: 100%;
+}
+.banner-five .buttons {
+    display: flex;
+    justify-content: space-between;
 }
 .banner-five button {
     text-decoration: none;
@@ -412,9 +433,9 @@ header ul li a {
     font-size: 20px;
     line-height: 150%;
     color: #FFFFFF;
+    text-align: center;
 }
-.banner-five button:first-of-type {
-    margin-right: 25px;
+.banner-five button:first-of-type {    
     background: #8F8F8F;
     box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
 }
@@ -449,6 +470,15 @@ header ul li a {
     margin: auto;
     flex-wrap: wrap;
     max-width: 1110px;
+}
+.banner-six .facture-catalogue p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
+    text-transform: uppercase;
 }
 .banner-six .facture-catalogue div {
     margin-bottom: 40px;
@@ -621,9 +651,6 @@ header ul li a {
     border-radius: 10px;
     padding: 20px 50px;
     border: none;
-}
-
-.banner-eight button span {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
