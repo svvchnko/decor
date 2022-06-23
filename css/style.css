@@ -342,6 +342,7 @@ header ul li a {
     padding: 30px;
     max-width: 1190px;
     margin: 0 auto 10px;
+    box-sizing: border-box;
 }
 .service-top h4 {
     font-family: 'Gothic A1';
@@ -352,19 +353,14 @@ header ul li a {
     color: #000000;
     max-width: 790px;
 }
-.form-field {
-    background-color: #FFFFFF;
-    border-radius: 20px;
-    padding: 30px;
-    max-width: 1190px;
-    margin: auto;
-}
+
 .service-banner {
     background: #4C6071;
     border-radius: 30px;
     padding: 30px 50px 30px;
     display: flex;
     justify-content: space-between;
+    box-sizing: border-box;
 }
 .ui-accordion .ui-accordion-header {
     display: flex;
@@ -376,12 +372,20 @@ header ul li a {
     font-size: 24px;
     line-height: 130%;
     color: #000000;
-    border-radius: 0;
-    border: none;
-    background-color: transparent;
-    
+    border: none;    
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 1190px;
+    margin: auto;    
+    margin-bottom: 20px;
+    box-sizing: border-box;
 }
+.ui-accordion .ui-accordion-header.ui-state-active {
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 0px;
 
+}
 
 .service-options {
     background-color: #FFFFFF;
@@ -391,6 +395,7 @@ header ul li a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: 30px;
 }
 .service-options:first-of-type {
     margin-bottom: 10px;
@@ -762,9 +767,14 @@ footer .google-map {
 .ui-icon  {
     display: none;
 }
-.ui-accordion .ui-accordion-content {
-    padding: 0%;
-    border: none;
-    border-radius: 0;
+.ui-accordion .ui-accordion-content {    
+    border: none;    
+    background-color: #FFFFFF;
+    border-radius: 0 0 20px 20px;
+    padding: 0 30px 30px;
+    max-width: 1190px;
+    margin: auto;
+    margin-bottom: 20px;
+    box-sizing: border-box;
 
 }
