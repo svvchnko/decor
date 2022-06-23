@@ -336,14 +336,14 @@ header ul li a {
     background-size: cover;
     padding: 60px 0;
 }
-.banner-five .service-top {
+.service-top {
     background-color: #FFFFFF;
     border-radius: 20px;
     padding: 30px;
     max-width: 1190px;
     margin: 0 auto 10px;
 }
-.banner-five .service-top h3 {
+.service-top h4 {
     font-family: 'Gothic A1';
     font-style: normal;
     font-weight: 400;
@@ -352,35 +352,38 @@ header ul li a {
     color: #000000;
     max-width: 790px;
 }
-.banner-five form {
+.form-field {
     background-color: #FFFFFF;
     border-radius: 20px;
     padding: 30px;
     max-width: 1190px;
     margin: auto;
 }
-.banner-five .service-banner {
+.service-banner {
     background: #4C6071;
     border-radius: 30px;
     padding: 30px 50px 30px;
     display: flex;
     justify-content: space-between;
 }
-.banner-five .service-question {
+.ui-accordion .ui-accordion-header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000000;
+    border-radius: 0;
+    border: none;
+    background-color: transparent;
     
 }
-.banner-five .service-question h4,p {
-    font-family: 'Gothic A1';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 130%;
-        color: #000000;
-}
-.banner-five .service-options {
+
+
+.service-options {
     background-color: #FFFFFF;
     padding: 20px;
     max-width: 408px;
@@ -389,10 +392,10 @@ header ul li a {
     justify-content: space-between;
     align-items: center;
 }
-.banner-five .service-options:first-of-type {
+.service-options:first-of-type {
     margin-bottom: 10px;
 }
-.banner-five .service-options:nth-child(2n) {
+.service-options:nth-child(2n) {
     margin-bottom: 10px;
 }
 .banner-five label {
@@ -405,22 +408,22 @@ header ul li a {
     margin-right: 97px;
 }
 
-.banner-five .photo-buttons {
+.photo-buttons {
     max-width: 610px;
 }
-.banner-five .service-photo {
+.service-photo {
     margin-bottom: 10px;
 }
-.banner-five .photo-buttons img {
+.photo-buttons img {
     display: block;
     width: 100%;
 }
-.banner-five .buttons {
+.buttons {
     display: flex;
     justify-content: space-between;
     cursor: pointer;
 }
-.banner-five button {
+.buttons button {
     text-decoration: none;
     background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
     box-shadow: 0px 0px 166px rgba(0, 0, 0, 0.2), 8px 8px 109px rgba(0, 0, 0, 0.05);
@@ -436,7 +439,7 @@ header ul li a {
     color: #FFFFFF;
     text-align: center;
 }
-.banner-five button:first-of-type {    
+.buttons button:first-of-type {    
     background: #8F8F8F;
     box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
 }
@@ -755,4 +758,13 @@ footer .google-map {
     position: relative;
     bottom: 470px;
     left: 920px;
+}
+.ui-icon  {
+    display: none;
+}
+.ui-accordion .ui-accordion-content {
+    padding: 0%;
+    border: none;
+    border-radius: 0;
+
 }

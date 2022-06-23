@@ -9,11 +9,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;600&family=Manrope:wght@600&family=Montserrat:wght@600&family=Roboto:wght@300;400;500&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-  
+    <link rel="stylesheet" href="css/style.css">  
 </head>
 <body>
     <header>
@@ -172,24 +173,21 @@
                 Оставить заявку
             </button>
         
-    </section>
+    </section>    
     <section class="banner-five">
         <div class="service-top">
-            <h3>
+            <h4>
                 Рассчитайте ориентировочную стоимость выполнения Ваших работ, ответив всего на 5 вопросов
-            </h3>
+            </h4>
         </div>
-        <div class="form-field">
-         <form action="#" method="post">
-            <div class="service-question">
-              <h4>
-                Какая услуга Вас интересует?
-              </h4>
-              <p>
-                Вопрос 1 из 5
-              </p>
-            </div>
-            <div class="service-banner">
+        <div class="form-field" id="accordion">
+         
+            <h3 class="service-question">
+                <span>Какая услуга Вас интересует?</span> 
+                <span>Вопрос 1 из 5</span>
+            </h3>     
+            <form action="#" method="post">         
+             <div class="service-banner">
                 <div>
                     <div class="service-options">
                         <label for="serviceChoice1">Декоративная штукатурка</label><input type="radio" id="serviceChoice1"
@@ -203,13 +201,46 @@
                         <label for="serviceChoice3">Декоративная штукатурка + покраска</label><input type="radio"
                             id="serviceChoice3" name="contact" value="email">
                     </div>
+                </div>            
+                <div class="photo-buttons">
+                    <div class="service-photo">
+                        <img src="images/services.png" alt="architect">
+                    </div>            
+                    <div class="buttons">
+                        <button type="submit">
+                            Назад
+                        </button>
+                        <button type="submit">
+                            Далее
+                        </button>
+                    </div>            
+                </div>                
+            </div>
+         </form>  
+        <h3 class="service-question">
+            <span>Какая услуга Вас интересует?</span>
+            <span>Вопрос 2 из 5</span>
+        </h3>
+        <form action="#" method="post">
+            <div class="service-banner">
+                <div>
+                    <div class="service-options">
+                        <label for="serviceChoice1">Декоративная штукатурка</label><input type="radio" id="serviceChoice4"
+                            name="contact" value="email">
+                    </div>
+                    <div class="service-options">
+                        <label for="serviceChoice2">Покраска</label><input type="radio" id="serviceChoice5" name="contact"
+                            value="email">
+                    </div>
+                    <div class="service-options">
+                        <label for="serviceChoice3">Декоративная штукатурка + покраска</label><input type="radio"
+                            id="serviceChoice6" name="contact" value="email">
+                    </div>
                 </div>
-            
                 <div class="photo-buttons">
                     <div class="service-photo">
                         <img src="images/services.png" alt="architect">
                     </div>
-            
                     <div class="buttons">
                         <button type="submit">
                             Назад
@@ -218,11 +249,10 @@
                             Далее
                         </button>
                     </div>
-            
-                </div>                
+                </div>
             </div>
-         </form>
-        </div>
+        </form>
+        </div>        
     </section>
     <section class="banner-six">        
             <img src="images/Group362.png" alt="Bubbles" class="image-top">
@@ -409,6 +439,7 @@
     <script src="https://kit.fontawesome.com/1d44a8dca7.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
     <script src="js/owl.carousel.js"></script>
     <script src="js/script.js"></script>
 </body>
