@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;600&family=Manrope:wght@600&family=Montserrat:wght@600&family=Roboto:wght@300;400;500&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="wow/animate.css">
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="https://resources/demos/style.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
@@ -39,16 +41,16 @@
     </header>
     <section class="main-banner">
         <div class="container">
-            <h1>
+            <h1 class="animate__animated animate__heartBeat">
                 Нанесение декоративных штукатурок премиум сегмента в современном стиле
             </h1>
-            <article>
+            <article class="animate__animated animate__backInRight">
                 <img src="images/Frame.svg" alt="Gift_box">
                 <p>
                     Наши клиенты получают скидку 10% на материалы 
                 </p>
             </article>            
-            <button type="button">
+            <button type="button" class="animate__animated animate__bounceInLeft">
              Заказать проект
             </button>         
         </div>
@@ -58,7 +60,7 @@
         <img src="images/Group362.png" alt="Bubbles" class="image-top">
         </div>
         <div class="container d-flex">
-            <div class="about-us-general">
+            <div class="about-us-general wow bounceInUp">
                 <h3>
                     О нас
                 </h3>
@@ -441,6 +443,10 @@
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
     <script src="js/owl.carousel.js"></script>
+    <script src="wow/wow.min.js"></script>    
+    <script>
+        new WOW().init();
+    </script>
     <script src="js/script.js"></script>
 </body>
 </html>

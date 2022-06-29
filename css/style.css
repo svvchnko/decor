@@ -78,6 +78,15 @@ header ul li a {
 .main-banner .container {
     position: relative;
 }
+.animate__animated.animate__heartBeat {
+    animation-duration: 8s;
+}
+.animate__animated.animate__backInRight {
+    animation-delay: 5s;
+}
+.animate__animated.animate__bounceInLeft {
+    animation-delay: 6s;
+}
 .main-banner h1 {
     margin-bottom: 30px;
     font-family: 'Gothic A1';
